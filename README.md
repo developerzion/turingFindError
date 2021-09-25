@@ -5,9 +5,7 @@ class Solution
 {	
 	function findError($num)
 	{	
-
 		$array = array();
-
 		$unique = array_unique($num);
 		$duplicate = array_diff_assoc($num, $unique);
 		if($duplicate){
